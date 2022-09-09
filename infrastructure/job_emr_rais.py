@@ -1,0 +1,15 @@
+((
+    rais
+    .coalesce(50)
+    .write.mode('overwrite')
+    .partitionBy('uf')
+    .format('parquet')
+    .save('s3://datalake-clo-igti-edc/consumer-zone/rais2020/')
+)
+    rais
+    .coalesce(50)
+    .write.mode('overwrite')
+    .partitionBy('uf')
+    .format('parquet')
+    .save('s3://datalake-clo-igti-edc/consumer-zone/rais2020/')
+)
