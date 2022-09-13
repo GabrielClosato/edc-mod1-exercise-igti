@@ -10,3 +10,6 @@ variable "numero_conta" {
   default = "527079836451"
 }
 
+variable "lambda_function_name" {
+  default = "IGTIexecutaEMRaovivo"
+}
