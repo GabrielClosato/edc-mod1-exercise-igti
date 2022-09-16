@@ -1,1 +1,2 @@
 "# edc-mod1-exercise-igti" 
+Construir um Data Lake com os dados do ENEM 2020, realizar o processamento utilizando ferramental adequado e disponibilizar o dado para consultas dos usuários de negócios e analistas de BI. 
